@@ -1,0 +1,43 @@
+*{
+   box-sizing: border-box;
+   margin: 0;
+
+}
+.lo7a{
+   
+  display: flex;
+  flex-direction: column;
+  
+  border: 1px solid black; /* Optional border for the chessboard */
+}
+
+.byad{
+   height: 70px;
+   width: 70px;
+   background-color: white;
+   border: 1px solid black;
+ 
+}
+.k7al{
+   height: 70px;
+   width: 70px;
+   background-color: rgb(44, 12, 92);
+   border: 1px solid black;
+}
+.cirle{
+   border: 3px solid red;
+   border-radius: 50%;
+   padding: 45%;
+   background-color: red;
+}
+.player2{
+   border: 3px solid rgb(213, 11, 11);
+   border-radius: 50%;
+   padding: 45%;
+   background-color: rgb(180, 145, 145);
+}
+.row{
+   display: flex;
+}
+
+

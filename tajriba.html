@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="tajriba.css">
+</head>
+<body>
+   <table>
+      <tr>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+      </tr>
+   </table>
+   <script>
+let td = document.querySelectorAll("td")
+let tr = document.querySelectorAll("tr")
+
+
+for(let i =0;i<tr.length;i++){
+   for(let j =0;j<tr[i].children.length;j++){
+if(i%2 ==0 && j%2 ==0){
+   tr[i].children[j].setAttribute("class","sii")
+   console.log( tr[i].children[j])
+}
+if(i%2 ==1 && j%2 ==1){
+   tr[i].children[j].setAttribute("class","sii")
+   console.log( tr[i].children[j])
+}
+}
+}
+   
+   
+
+
+   </script>
+</body>
+</html>
