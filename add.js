@@ -13,7 +13,7 @@ function allowDrop(ev) {
    var data = ev.dataTransfer.getData("text");
    ev.target.appendChild(document.getElementById(data));
  }
-let id =["d1","d2","d3","d4","d5","d6","d7","d8","d9"]
+let id =["d1","d2","d3","d4","d5","d6","d7","d8","d9","d10","d11","d12"]
 var k7al = document.getElementsByClassName("k7al")
 var dowara = document.getElementsByClassName("cirle") 
 var player2 = document.getElementsByClassName("player2") 

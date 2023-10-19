@@ -3,10 +3,14 @@
    margin: 0;
 
 }
+body{
+   display: flex;
+}
 .lo7a{
    
   display: flex;
   flex-direction: column;
+  width: 600px;
   
   border: 1px solid black; /* Optional border for the chessboard */
 }
@@ -38,6 +42,16 @@
 }
 .row{
    display: flex;
+}
+.mot{
+   border: 1px solid black;
+   height: 300px;
+   width: 300px;
+   
+}
+.mot.player2{
+   height: 12px;
+   width: 12px;
 }
 
 
