@@ -15,8 +15,10 @@ function allowDrop(ev) {
  }
 let id =["d1","d2","d3","d4","d5","d6","d7","d8","d9","d10","d11","d12"]
 var k7al = document.getElementsByClassName("k7al")
+var byad = document.getElementsByClassName("byad")
 var dowara = document.getElementsByClassName("cirle") 
 var player2 = document.getElementsByClassName("player2") 
+let bord = byad.length + k7al.length
 for(i=0 ; i<k7al.length;i++){
   k7al[i].setAttribute("ondrop" ,"drop(event)")
   k7al[i].setAttribute("ondragover" ,"allowDrop(event)") 
@@ -32,6 +34,5 @@ dowara[i].setAttribute("ondragstart" , "drag(event)")
 player2[i].setAttribute("id" , "player2"+i)
 player2[i].setAttribute("draggable" , "true")
 player2[i].setAttribute("ondragstart" , "drag(event)")
-
 
 }

@@ -31,13 +31,16 @@ body{
 .cirle{
    border: 3px solid red;
    border-radius: 50%;
-   padding: 45%;
+  
+   width: 69px;
+   height: 69px;
    background-color: red;
 }
 .player2{
    border: 3px solid rgb(213, 11, 11);
    border-radius: 50%;
-   padding: 45%;
+   width: 69px;
+   height: 69px;
    background-color: rgb(180, 145, 145);
 }
 .row{
@@ -47,11 +50,8 @@ body{
    border: 1px solid black;
    height: 300px;
    width: 300px;
+   display: flex;
+   
    
 }
-.mot.player2{
-   height: 12px;
-   width: 12px;
-}
-
 
